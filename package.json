@@ -1,0 +1,38 @@
+{
+  "name": "comedypage",
+  "version": "1.0.0",
+  "description": "James Medina is a New York Comedian",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesMedina7787/standUpComedy.git"
+  },
+  "keywords": [
+    "Comedy",
+    "Stand",
+    "up",
+    "james",
+    "medina",
+    "jwm",
+    "NYC",
+    "New",
+    "York",
+    "NY",
+    "City"
+  ],
+  "author": "JWM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamesMedina7787/standUpComedy/issues"
+  },
+  "homepage": "https://github.com/JamesMedina7787/standUpComedy#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
+}

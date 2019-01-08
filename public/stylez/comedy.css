@@ -1,0 +1,184 @@
+
+
+/* body{
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+} */
+.main {
+  text-align: center;
+  padding-top: 5%;
+  width:45%;
+  clear: both;
+}
+
+#slideShow{
+
+align-items: center;
+height:555px;
+width: 1000;
+overflow: hidden;
+}
+
+.james{
+  /* height:65%;
+  width: 65%; */
+  position: absolute;
+  align-items: center;
+  text-align: center;
+}
+#contained{
+  background-color: black;
+  display: block;
+  text-align: center;
+  align-items: center;
+  height: 550px;
+  padding: 3%;
+  margin: 3%;
+}
+#me{
+  text-align: center;
+  align-items: center;
+    /* width: 90%;
+    height: 90%; */
+    z-index: 1;
+
+}
+
+#me2{
+  text-align: center;
+  align-items: center;
+    /* width: 90%;
+    height:90%; */
+    z-index: 2;
+
+}
+
+#me3{
+  text-align: center;
+  align-items: center;
+  /* width: 90%;
+  height:90%; */
+  z-index: 3;
+
+}
+#me4{
+/* height:77.5%;
+width: 77.5%; */
+position: absolute;
+align-self: center;
+}
+
+#meP3{
+  z-index: 3
+}
+#meP2{
+  z-index: 2
+}
+#meP1{
+  z-index: 1
+}
+.picture{
+  display:block;
+  position: relative;
+}
+
+
+#contentss{
+  width:70%;
+  margin-top: 5%;
+}
+span{}
+.column-left{
+width: 40%;
+display: inline-block;
+float: left;
+height:auto;
+position:relative;
+font-size: 2.1em;
+}
+
+.textFloats{
+  margin-left:4%;
+  width: 45%;
+  display:inline;
+ position:relative;
+  float:left;
+  font-size: 1.2em;
+}
+.textFloats1{
+  margin-left:4%;
+  width: 45%;
+  display:inline;
+ position:relative;
+  float:left;
+  font-size: 3.6em;
+}
+#div{
+  background-color: oldlace;
+}
+#top{
+  height: 100px;
+  background-color: oldlace;
+}
+.right{
+  width:40%;
+  height:auto;
+display:block;
+float: left;
+position:relative;
+}
+.gallery{
+  flex:1;
+  position:relative;
+  width:500px;
+
+}
+.gallery :hover{border:orange solid 5px;}
+
+#picture-right{
+  flex:1;
+  width:500px;
+margin-left: auto;
+margin-right: auto;
+margin-top: auto;
+margin-bottom: auto;
+display:inline-block;
+float: right;
+}
+
+.logo{position: relative;display:block;
+float: none;}
+
+
+@media (max-width:880px){
+  .logo{
+       display:block;
+       width:55%;
+       float: none;
+}
+#contained{
+display: none;
+}
+#slideShow{
+  display:none
+}
+
+#buddha{
+  background-color: none;
+  height:555px;
+  width: 1000;
+  background-image: url('/stylez/buddha.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.portrait{display:none}
+.column-left, picture-right{
+  float:none;
+  width:100%;
+}
+column-right{
+  margin-left:0%;
+}
+}

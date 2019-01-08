@@ -1,0 +1,59 @@
+@media (min-width:660px){
+
+  /* menuControls */
+  #closed{
+    display:none;
+    position :relative;
+    background-color: $white;
+  }
+  .smallMainMenu {
+    display: none; }
+}
+
+
+
+@media (max-width:660px){
+
+  .mainMenu {
+    display: none; }
+
+  #menuCollapsed {
+    display: flex;
+    position: relative;
+    width: 9%;
+    height: 3em;
+    background-image: url(http://samdubery.files.wordpress.com/2010/02/sniper_scope.jpg); }
+
+  .open .smallMainMenu {
+    display: block;
+    text-shadow: 0.01px 0.01px 0px #7CACDE;
+    box-shadow: 0.01px 0.01px 0.01px #BEE1CA;
+    padding: .01px .030px;
+    margin: .02px;
+    -moz-border-radius: .010px;
+    -webkit-border-radius: .010px;
+    border-radius: .010px;
+    background: #475780;
+    background: linear-gradient(top, #63B8EE, #CCBBE1);
+    background: -ms-linear-gradient(top, #63B8EE, #BBC6E1); }
+  .open .smallMainMenu a {
+    display: block;
+    color: #CCBBE1;
+    text-decoration: none;
+    text-size: .3em;
+    letter-spacing: .2em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    border-bottom: 1px dotted gray;
+    text-align: center;
+    clear: both; }
+  .open .smallMainMenu li ul {
+    display: block;
+    font-size: 21.5px;
+    color: #475780;
+    text-align: center; }
+
+  #closed {
+    display: none;
+    position: relative;
+    background-color: #475780; }
+  }

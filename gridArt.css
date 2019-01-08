@@ -1,0 +1,10 @@
+.box{
+  width: 2vw;
+  height: 2vw;
+  border: 1px solid-black;
+  float: left;
+}
+
+.new-div{
+  background-color:white;
+}
